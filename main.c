@@ -64,3 +64,5 @@ int main(void)
 	return (0);
 
 }
+
+/* 昨日を求める機能 */
