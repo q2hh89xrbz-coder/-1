@@ -41,16 +41,17 @@ int main(void)
 	printf("月："); scanf("%d",&m);
 	printf("日："); scanf("%d",&d);
 
-	if(m < 1 || m > 12){
+	/* 月の入力チェック */
+if(m < 1 || m > 12){
 	printf("月の値が不正です\n");
 	return 0;
-	}
+}
 
-	if(d < 1 || d > day[isleap(y)][m]){
+/* 日の入力チェック */
+if(d < 1 || d > day[isleap(y)][m]){
 	printf("日の値が不正です\n");
 	return 0;
-}	
-
+}
 	ay = by = y;
 	am = bm = m;
 	ad = bd = d;
