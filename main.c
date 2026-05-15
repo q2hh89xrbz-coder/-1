@@ -63,3 +63,4 @@ if(d < 1 || d > day[isleap(y)][m]){
 	return (0);
 
 }
+
